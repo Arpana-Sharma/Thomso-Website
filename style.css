@@ -1,0 +1,166 @@
+*,
+.navbar {
+    background-color: black !important;
+}
+
+.btn-outline-success {
+    border-radius: 0px;
+    border: 1px solid #D9B346;
+    color: #D9B346;
+}
+
+.bgray{
+    background-color: #D9B346;
+}
+
+.btn-outline-success:hover {
+    background-color: #D9B346 !important;
+    color: black;
+}
+
+.bgray ,.bgray p{
+    background-color: #D9B346 !important;
+}
+
+
+#sec1 span {
+    font-style: italic;
+}
+
+h1 {
+    width: 800px;
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: 0.4px;
+}
+
+#sec1p {
+    width: 777px;
+}
+
+.transparent {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+
+.transparent:hover {
+    background-color: white !important;
+    color: black;
+}
+.gray{
+    color: #D9B346;
+}
+.grayBtn {
+    border-radius: 0px;
+    background-color: #D9B346 !important;
+    color: black;
+}
+
+h2 {
+    font-size: 52px;
+}
+
+section , footer{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#sec2p {
+    width: 642px;
+}
+
+.box p {
+    font-size: 0.8rem;
+}
+
+#sec2 {
+    background-image: url('images/v2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sec2cont1 {
+    width: 580px;
+}
+
+#sec2cont1 h4 {
+    padding-top: 140px;
+}
+
+#sec2cont2 {
+    width: 330px;
+}
+#sec2 img{
+    display: block;
+}
+#sec2{
+    background-image: url('images/image2.png');
+}
+#sec2 img{
+    width: 800px;
+}
+#sec3{
+    background-image: url('images/Union.png');
+}
+#sec3cont1{
+    width: 590px;
+}
+#sec3cont2 img{
+    width: 300px;
+}
+#sec4cont1{
+    width: 480px;
+}
+#sec4cont2{
+    background-image: url('images/2yQtqBqzDRo.png');
+    max-width: 480px;
+}
+#sec4 h2{
+    font-size: 2.3rem;
+}
+.circleimg{    
+    border-radius: 50%;
+}
+#imageGold{
+    background-color: #D9B346 !important;
+}
+#sec6cont2{
+    background-image: url('images/Pattern.png');
+}
+#sec6cont1{
+    width: 50%;
+    padding-right: 100px;
+}
+#sec6cont2{
+    width: 50%;
+    margin-left: 100px;
+}
+#footcont1{
+    width: 400px;
+    padding-top: 80px;
+}
+#footcont2{
+    width: 600px;
+}
+#footcont2 ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#footcont2 a, #footcont1 p{
+    color: rgb(231, 227, 227);
+}
+#footcont2 p{
+    font-weight: 700;
+    color: rgb(152, 151, 151);
+}
+@media screen and (max-width: 1030px) {
+    #sec1 img{
+        
+        width: 500px;
+    }
+}
